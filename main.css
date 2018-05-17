@@ -2,15 +2,21 @@ body {
 
 }
 
-ul {
+.main nav {
     display: flex;
     justify-content: flex-end;    
 }
 
-#Falvé {
+Falvé {
+    display: flex;
     position: relative;
     top: 30px;
     left: 50px;
+}
+
+.sub nav {
+    display: flex;
+    float: right;
 }
 
 
