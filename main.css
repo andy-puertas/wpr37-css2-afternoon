@@ -1,8 +1,12 @@
 body {
 
 }
-
-.main nav {
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+#main-nav {
     display: flex;
     justify-content: flex-end;    
 }
@@ -14,9 +18,11 @@ Falvé {
     left: 50px;
 }
 
-.sub nav {
+#shop-sub-nav {
     display: flex;
     float: right;
+    font-weight: 400;
+    justify-content: center;
 }
 
 
